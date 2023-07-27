@@ -1,0 +1,12 @@
+[GIN-debug] POST   /upload                   --> github.com/netSpot/goApi/controllers.ImageUpload (5 handlers)
+[GIN-debug] POST   /users/signup             --> github.com/netSpot/goApi/controllers.Signup (4 handlers)
+[GIN-debug] POST   /users/login              --> github.com/netSpot/goApi/controllers.Login (4 handlers)
+[GIN-debug] GET    /users                    --> github.com/netSpot/goApi/controllers.GetUsers (5 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/netSpot/goApi/controllers.DeleteUser (6 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/netSpot/goApi/controllers.UpdateUser (5 handlers)
+[GIN-debug] GET    /users/:id                --> github.com/netSpot/goApi/controllers.GetUserByIDWithCache (5 handlers)
+[GIN-debug] GET    /users/profile            --> github.com/netSpot/goApi/controllers.Profile (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT="4000"
+[GIN-debug] Listening and serving HTTP on :4000
